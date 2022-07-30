@@ -171,9 +171,13 @@ header {
   font-size: 62px;
 }
 .descripion_count{
-  font-size: 24px;
+  font-size: 20px;
+  text-align: center;
 }
 @media (min-width: 468px) and (max-width: 968px) {
+  .descripion_count{
+    font-size: 18px;
+  }
   .header_slogan {
     font-size: 56px;
   }
@@ -259,6 +263,6 @@ header {
     font-size: 50px;
   }
   .descripion_count{
-    font-size: 18px;
+    font-size: 16px;
   }
 }
