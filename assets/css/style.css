@@ -213,12 +213,20 @@ header {
   color: white;
 }
 
-.icon_size {
-  font-size: 70px;
-}
-
 .primary_color {
   color: #f1ae0e;
+}
+
+.icon_size {
+  font-size: 60px;
+}
+
+.count_element {
+  font-size: 62px;
+}
+
+.descripion_count {
+  font-size: 24px;
 }
 
 @media (min-width: 468px) and (max-width: 768px) {
@@ -301,5 +309,14 @@ header {
   }
   .content_section_about h1 {
     font-size: 20px;
+  }
+  .icon_size {
+    font-size: 48px;
+  }
+  .count_element {
+    font-size: 50px;
+  }
+  .descripion_count {
+    font-size: 18px;
   }
 }
