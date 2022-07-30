@@ -198,6 +198,37 @@ header {
   animation-delay: 0.2s;
   z-index: 99998;
 }
+footer{
+  background-image: url('../images/footer_bg.jpeg');
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.footer_overlay{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  background: rgba($color: #000000, $alpha: 0.9);
+}
+.footer_section{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: rgba($color: #000000, $alpha: 1);
+}
+.footer_links{
+  transition: 0.3s;
+  i{
+    transition: 0.3s; 
+  }
+}
+.footer_links:hover{
+  transition: 0.3s;
+  i{
+    color: #f1ae0e!important;
+    transition: 0.3s; 
+  }
+}
 @keyframes ripple {
   from {
     opacity: 1;

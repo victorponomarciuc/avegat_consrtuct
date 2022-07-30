@@ -259,6 +259,50 @@ header {
   z-index: 99998;
 }
 
+footer {
+  background-image: url("../images/footer_bg.jpeg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer_overlay {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.footer_section {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: black;
+}
+
+.footer_links {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.footer_links i {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer_links:hover {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.footer_links:hover i {
+  color: #f1ae0e !important;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
 @-webkit-keyframes ripple {
   from {
     opacity: 1;
