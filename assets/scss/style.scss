@@ -167,15 +167,48 @@ header {
 .icon_size {
   font-size: 60px;
 }
-.count_element{
+.count_element {
   font-size: 62px;
 }
-.descripion_count{
+.descripion_count {
   font-size: 20px;
   text-align: center;
 }
+.phone_call_btn {
+  width: 80px;
+  height: 80px;
+  background: rgba($color: #ff0000, $alpha: 0.5);
+  backdrop-filter: blur(5px);
+  right: 60px;
+    bottom: 20px;
+    border-radius: 100%;
+  i {
+    font-size: 40px;
+  }
+}
+.phone_call_btn::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 50%;
+  z-index: -1;
+  animation: ripple 1.5s ease-out infinite;
+  animation-delay: 0.2s;
+}
+@keyframes ripple {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
 @media (min-width: 468px) and (max-width: 968px) {
-  .descripion_count{
+  .descripion_count {
     font-size: 18px;
   }
   .header_slogan {
@@ -259,10 +292,10 @@ header {
   .icon_size {
     font-size: 48px;
   }
-  .count_element{
+  .count_element {
     font-size: 50px;
   }
-  .descripion_count{
+  .descripion_count {
     font-size: 16px;
   }
 }
